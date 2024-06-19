@@ -1,0 +1,334 @@
+/* General Styles for Dark Mode */
+body {
+    background-color: #cec2c2;
+    color: #0e0d0d;
+    font-family: "Poppins", sans-serif;
+    line-height: 1;
+}
+
+
+
+  
+
+/* Navigation Bar */
+#home {
+    background-color:  #827c85;
+    padding-bottom: 1cm;
+    margin-left:-1cm;
+    margin-right:-1cm;
+    margin-top:-1cm;
+    padding-top: 1cm;
+    padding-bottom: 1.5cm;
+    height: 5mm;
+   }
+   
+.topmenu {
+    color: rgb(2, 2, 2);
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    text-decoration:none;
+}
+
+
+.topmenu:hover {
+    color: rgb(221, 207, 207);
+    /* Add the styles here */
+  }
+
+.topdiv {
+    float: right;
+    padding-right: 2cm;
+  }
+
+.profile_name {
+    float: left;
+    padding-left: 2cm;
+    /* Add the styles here */
+}
+
+.profile_name .contact_info {
+    font-size: 15px;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }  
+
+.contact_info img {
+    width:25px;
+    margin-right: 10px;
+    float:left;
+  }
+
+/* Title */ 
+h2 {
+    text-align: justify;
+    font-size: 30px;
+    text-align: center;
+    float: center;
+    color: #0e0d0d;
+    margin: 10px;
+    margin-left: 60px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+/* Used in the About Me sections */
+
+
+.about-details-container {
+  justify-content: center;
+  flex-direction: column;
+  
+}
+
+.about-containers {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  display: flex;
+}
+
+
+.details-container {
+  padding: 1.5rem;
+  flex: 1;
+  background: none;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.2rem solid;
+  border-color: rgb(76, 73, 73);
+  text-align: center;
+}
+
+
+/* Profile */
+#profile {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  height: 80vh;
+}
+
+.icon {
+  cursor: pointer;
+  height: 5rem;
+  background: none
+}
+
+.section__text {
+  align-self: center;
+  text-align: center;
+}
+
+.section__text p {
+  font-weight: 600;
+}
+
+.section__text__p1 {
+  text-align: center;
+}
+
+.section__text__p2 {
+  font-size: 1.rem;
+  margin-bottom: 1rem;
+}
+
+.section__pic-container {
+  height: 400px;
+  width: 500px;
+  margin: auto 0;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+
+.btn {
+  font-weight: 600;
+  transition: all 300ms ease;
+  padding: 1rem;
+  width: 8rem;
+  border-radius: 2rem;
+}
+
+.btn-color-1,
+.btn-color-2 {
+  border: rgb(53, 53, 53) 0.1rem solid;
+}
+
+.btn-container {
+  gap: 1rem;
+}
+
+
+
+#socials-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+/* About me */
+.about-me {
+    display: flex;
+    align-items: center;
+  }
+
+#about-me p {
+    font-size: 15px;
+    color: rgb(57, 53, 53);
+    margin-top: 0cm;
+  }
+
+.profile_image{
+    width: 100%;
+    height: fit-content;
+    vertical-align: middle;
+    margin: 0px;
+}
+
+.section-container {
+  display: flex;
+  gap: 5rem;
+  height: 80%;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+}
+
+.section-container-pic {
+  height: auto 0;
+  width: 18in;
+  margin: auto 0;
+}
+
+/* Skills */
+.all_skills {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    margin-left: 120px;
+}
+
+#skills h3 {
+  margin-left: 110px;
+}
+
+.skill {
+    border: 1px solid grey;
+    display: block;
+    border-radius: 10px;
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+    width: 1in;
+    height: 0.8in;
+    font-size: 20px;
+    box-shadow: 0 3px 10px gray;
+}
+
+.skill img {
+    height: 50px;
+    align-items: center;
+}
+
+.skill h6 {
+  align-items: center;
+  font-size: 15px;
+  margin-block-start: 5px;
+  margin-block-end: 10px;
+  font-weight: normal;
+} 
+
+.skills p {
+  align-items: center;
+  font-size: 15px;
+  color: gray;
+  margin-block-start: 5px;
+  margin-block-end: 5px;
+} 
+
+.flex_center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Projects */
+
+.projects-container {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.project-card {
+    margin: 0 15px 15px 30px;
+    padding-bottom: 10px;
+  }
+
+.project-card h3 {
+    font-size: 22px;
+    margin-left: 80px;
+    margin-bottom: -5px;
+}
+.project-card p {
+  font-size: 15px;
+  margin-left: 80px;
+}
+
+.project-card li {
+    font-size: 15px;
+    margin-left: 100px;
+  }
+
+  .project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.project-date {
+    font-size: 14px; /* Adjust the font size as needed */
+    color: #666; /* Adjust the color as needed */
+    margin-right: 100px;
+}
+
+
+/* Recommendation */
+
+.all_recommendations {
+    display: flex;
+    align-items: center;
+    margin-left: 1in;
+    flex-direction: row;
+    flex-flow: wrap;
+    padding: 20px;
+  }
+
+.recommendation {
+    font-style: italic;
+    text-align: left;
+    width: 21.875rem;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--primary-shadow);
+    padding: 20px;
+    margin: 10px;
+    border:1px solid gray;
+    font-size: 18px;
+    height:150px;
+}
+
+
+.recommendation span {
+    color: #7600bc;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
