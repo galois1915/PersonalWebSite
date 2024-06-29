@@ -206,6 +206,37 @@ h2 {
   width: 18in;
   margin: auto 0;
 }
+.socials-container {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.social {
+  border: 1px solid grey;
+  display: block;
+  border-radius: 10px;
+  text-align: center;
+  margin: 5px;
+  padding: 10px;
+  width: 0.9in;
+  height: 0.7in;
+  font-size: 20px;
+  box-shadow: 0 3px 10px gray;
+}
+.social img {
+  height: 40px;
+  align-items: center;
+}
+.social h6 {
+  align-items: center;
+  font-size: 15px;
+  margin-block-start: 5px;
+  margin-block-end: 10px;
+  font-weight: normal;
+} 
 
 /* Skills */
 .all_skills {
